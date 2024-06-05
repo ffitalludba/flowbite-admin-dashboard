@@ -37,7 +37,7 @@
     <link href="{{ . }}" rel="stylesheet">
     {{- end }}
   </head>
-  <body{{ with .Page.Params.body_class }} class="{{ . }}"{{ end }}>
+  <body{{ with .Page.Params.body_class }} class="{{ . }}"{{ end }}><span class="bg-lime-600">THIS IS examples.html</span>
     {{ .Content }}
   </body>
 </html>
