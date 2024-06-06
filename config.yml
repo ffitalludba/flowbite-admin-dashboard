@@ -9,7 +9,6 @@ params:
   homepage: "https://flowbite.com/"
   authors: Themesberg
   social_image_path: images/og-image.png
-  white_bg: true
 
 markup:
   goldmark:
